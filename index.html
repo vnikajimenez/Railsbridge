@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+	<title>first exercise</title>
+	<script type ="text/javascript">
+	function replaceName () {
+		var mynewName = window.prompt ("pick a new name");
+		document.getElementById ('user-name').innerHTML = mynewName;
+		
+	} document.onclick=replaceName;
+	 </script>
+	<style type="text/css" media="screen">
+	
+	
+	h1{font-size: 40px;
+	border-bottom: 20px dotted aquamarine
+	}
+	p{padding: 100px; color: black;
+		border: 3px red solid;
+	
+		background-color: cornsilk;}
+		h1{ color: blue ;
+			}
+			em{font-size: 50px;color: black;
+				}
+				.important{ border: 1px solid green;}
+				.user-name { font-weight: bold;
+					}
+	</style>
+		
+	</head>
+<body>
+
+<h1>Hello <em>World</em>!
+	</h1>
+
+<p class= "important">Hello My name is <span id="user-name">Nika</span>.</p>
+
+<p> In my free time , I enjoy math, Rails and shopping for fancy hats. </p>
+</body>
+</html>
